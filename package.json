@@ -1,0 +1,58 @@
+{
+  "name": "usefull-hooks",
+  "description": "React usefull hooks collection",
+  "version": "1.0.0",
+  "author": "FujiHaruka",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/usefull-hooks/issues"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.4.3",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/history": "^4.7.2",
+    "@types/jest": "24.0.11",
+    "@types/react": "16.8.13",
+    "@types/react-router-dom": "^4.3.1",
+    "babel-core": "6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "history": "^4.9.0",
+    "jest": "24.7.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hooks-testing-library": "0.4.0",
+    "react-router-dom": "^5.0.0",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "3.4.3"
+  },
+  "files": [
+    "dist/",
+    "esm/"
+  ],
+  "homepage": "https://github.com/FujiHaruka/usefull-hooks#readme",
+  "keywords": [
+    "Hooks",
+    "React"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FujiHaruka/usefull-hooks.git"
+  },
+  "scripts": {
+    "build": "npm-run-all build:cjs build:es",
+    "build:cjs": "tsc",
+    "build:es": "tsc -m esNext --outDir esm",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts"
+}
