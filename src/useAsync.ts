@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 
-import useValues from './useValues'
+import { useValues } from './useValues'
 
 export interface UseAsyncValues<T> {
   ready: boolean
@@ -9,7 +9,7 @@ export interface UseAsyncValues<T> {
   error: Error | null
 }
 
-const useAsync = <Arg, Result, Empty>(
+export const useAsync = <Arg, Result, Empty>(
   fn: (arg: Arg) => Promise<Result>,
   emptyResult: Empty,
 ) => {
@@ -63,5 +63,3 @@ const useAsync = <Arg, Result, Empty>(
     reset,
   }
 }
-
-export default useAsync

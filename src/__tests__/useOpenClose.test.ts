@@ -1,6 +1,6 @@
 import { act, cleanup, renderHook } from 'react-hooks-testing-library'
 
-import useOpenClose from '../useOpenClose'
+import { useOpenClose } from '../'
 
 afterEach(cleanup)
 

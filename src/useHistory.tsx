@@ -21,8 +21,6 @@ export const HistoryContextProvider = ({
 /**
  * Hook to use history object via context
  */
-const useHistory = (): History => {
+export const useHistory = (): History => {
   return React.useContext(HistoryContext)
 }
-
-export default useHistory

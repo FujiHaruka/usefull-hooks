@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { MemoryRouter, Route, RouteComponentProps } from 'react-router-dom'
 import { cleanup, render } from 'react-testing-library'
 
-import useHistory, { HistoryContextProvider } from '../useHistory'
+import { useHistory, HistoryContextProvider } from '../'
 
 afterEach(cleanup)
 

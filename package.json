@@ -51,7 +51,8 @@
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --outDir esm",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepublish": "npm run build"
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts"

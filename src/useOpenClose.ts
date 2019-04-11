@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-const useOpenClose = (initalState: boolean = false) => {
+export const useOpenClose = (initalState: boolean = false) => {
   const [isOpen, setOpen] = useState(initalState)
   const onOpen = useCallback(() => setOpen(true), [])
   const onClose = useCallback(() => setOpen(false), [])
@@ -10,5 +10,3 @@ const useOpenClose = (initalState: boolean = false) => {
     onClose,
   }
 }
-
-export default useOpenClose

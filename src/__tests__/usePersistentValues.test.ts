@@ -1,6 +1,6 @@
 import { cleanup, renderHook } from 'react-hooks-testing-library'
 
-import usePersistentValues from '../usePersistentValues'
+import { usePersistentValues } from '../'
 import { JSONStorage } from '../util/JSONStorage'
 
 afterEach(cleanup)

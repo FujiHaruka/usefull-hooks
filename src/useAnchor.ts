@@ -18,5 +18,3 @@ export const useAnchor = () => {
     onClose,
   }
 }
-
-export default useAnchor

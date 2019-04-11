@@ -1,7 +1,7 @@
 import React from 'react'
 import { cleanup, fireEvent, render } from 'react-testing-library'
 
-import useAnchor from '../useAnchor'
+import { useAnchor } from '../'
 
 afterEach(cleanup)
 

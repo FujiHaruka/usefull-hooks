@@ -1,6 +1,6 @@
 import { createBrowserHistory } from 'history'
 
-import useUrlSyncState from '../useUrlSyncState'
+import { useUrlSyncState } from '../'
 import { renderHook, cleanup, act } from 'react-hooks-testing-library'
 
 afterEach(cleanup)

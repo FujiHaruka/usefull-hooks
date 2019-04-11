@@ -1,6 +1,6 @@
 import { renderHook, cleanup, act } from 'react-hooks-testing-library'
 
-import useValues from '../useValues'
+import { useValues } from '../'
 
 afterEach(cleanup)
 

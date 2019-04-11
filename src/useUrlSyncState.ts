@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react'
 import { RouteComponentProps } from 'react-router-dom'
 
-const useUrlSyncState = <T>(
+export const useUrlSyncState = <T>(
   initialState: T,
   stateToPath: (state: T) => string | null,
   history: RouteComponentProps['history'],
@@ -16,5 +16,3 @@ const useUrlSyncState = <T>(
   }, [])
   return [state, setStateWithChangingUrl]
 }
-
-export default useUrlSyncState

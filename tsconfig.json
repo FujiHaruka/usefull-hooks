@@ -19,9 +19,9 @@
   },
   "exclude": [
     "node_modules",
-    "lib",
+    "dist",
+    "esm",
     "**/__tests__/**/*",
-    "**/__stories__/**/*",
     "*.test.ts",
     "*.test.tsx"
   ]

@@ -1,9 +1,9 @@
 import { SetStateAction, useCallback, useEffect } from 'react'
 
 import { JSONStorage } from './util/JSONStorage'
-import useValues, { UseValuesAction } from './useValues'
+import { useValues, UseValuesAction } from './useValues'
 
-const usePersistentValues = <T>(
+export const usePersistentValues = <T>(
   key: string,
   initialValues: T,
 ): [T, UseValuesAction<T>] => {
@@ -38,5 +38,3 @@ const usePersistentValues = <T>(
   )
   return [values, setValuesPersistently]
 }
-
-export default usePersistentValues
