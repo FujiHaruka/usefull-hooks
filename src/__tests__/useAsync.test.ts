@@ -6,11 +6,10 @@ import { useAsync } from '../'
 afterEach(cleanup)
 
 describe('useAsync', () => {
-  const render = () =>
-    renderHook(() => useAsync((n: number) => Promise.resolve(n), 0))
-
   it('should work with async state', async () => {
-    const { result } = render()
+    const { result } = renderHook(() =>
+      useAsync((n: number) => Promise.resolve(n), 0),
+    )
 
     expect(result.current.busy).toBeFalsy()
     expect(result.current.ready).toBeFalsy()
@@ -28,5 +27,22 @@ describe('useAsync', () => {
     expect(result.current.busy).toBeFalsy()
     expect(result.current.ready).toBeTruthy()
     expect(result.current.result).toBe(1)
+  })
+
+  it('should throw error', async () => {
+    const { result } = renderHook(() =>
+      useAsync((n: number) => Promise.reject('message'), 0),
+    )
+
+    let error: Error | null = null
+    try {
+      // Warning
+      await result.current.doAsync(1)
+    } catch (e) {
+      error = e
+    }
+
+    expect(error).not.toBeNull()
+    expect(result.current.error).not.toBeNull()
   })
 })

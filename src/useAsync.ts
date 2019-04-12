@@ -36,10 +36,11 @@ export const useAsync = <Arg, Result, Empty>(
         .catch((e) => {
           console.error(e)
           set({
+            result: emptyResult,
             error: e,
             busy: false,
           })
-          return emptyResult
+          throw e
         })
     },
     [fn, ready, busy],
