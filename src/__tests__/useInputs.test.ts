@@ -8,7 +8,7 @@ describe('useInputs', () => {
   const render = () =>
     renderHook(() =>
       useInputs({
-        name: '',
+        name: 'x',
         age: 20,
       }),
     )
@@ -25,5 +25,14 @@ describe('useInputs', () => {
     expect(result.current.inputs.name).toBe('foo')
     expect(result.current.inputs.age).not.toBe('21')
     expect(result.current.inputs.age).toBe(21)
+  })
+
+  it('should reset', () => {
+    const { result } = render()
+    act(() => result.current.onChange.name(event('foo')))
+    act(() => result.current.onChange.age(event('21')))
+    act(() => result.current.reset())
+    expect(result.current.inputs.name).toBe('x')
+    expect(result.current.inputs.age).toBe(20)
   })
 })

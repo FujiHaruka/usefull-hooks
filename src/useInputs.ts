@@ -18,8 +18,10 @@ export const useInputs = <T extends { [name: string]: any }>(
 ): {
   inputs: T
   onChange: { [P in keyof T]: (event: any) => void }
+  reset: () => void
 } => {
   const [inputs, setInputs] = useValues(initialInputs)
+  const reset = useCallback(() => setInputs(initialInputs), [])
   const convert = TypeConverter(inputs)
   const onChange = Object.assign(
     {},
@@ -36,5 +38,6 @@ export const useInputs = <T extends { [name: string]: any }>(
   return {
     inputs,
     onChange,
+    reset,
   }
 }
