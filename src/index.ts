@@ -1,6 +1,7 @@
 export * from './useAnchor'
 export * from './useAsync'
 export * from './useHistory'
+export * from './useInputs'
 export * from './useOpenClose'
 export * from './usePersistentValues'
 export * from './useUrlSyncState'
