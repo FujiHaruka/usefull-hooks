@@ -1,5 +1,6 @@
 export * from './useAnchor'
 export * from './useAsync'
+export * from './useFormDialog'
 export * from './useHistory'
 export * from './useInputs'
 export * from './useOpenClose'
