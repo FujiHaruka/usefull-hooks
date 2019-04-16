@@ -3,13 +3,13 @@ import { useMountEffect } from './useMountEffect'
 
 export const useTitle = (
   title: string,
-  options: { saveOriginal: boolean } = { saveOriginal: true },
+  options: { keepOriginal: boolean } = { keepOriginal: true },
 ) => {
-  const { saveOriginal } = options
+  const { keepOriginal } = options
   const [original, setOriginal] = useState<string | null>(null)
 
   useMountEffect(() => {
-    if (saveOriginal) {
+    if (keepOriginal) {
       setOriginal(document.title)
     }
   })
@@ -17,7 +17,7 @@ export const useTitle = (
   useEffect(() => {
     document.title = title
     return () => {
-      if (saveOriginal && original !== null) {
+      if (keepOriginal && original !== null) {
         document.title = original
       }
     }

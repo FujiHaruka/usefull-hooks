@@ -19,10 +19,10 @@ describe('useTitle', () => {
     expect(document.title).toBe('original')
   })
 
-  it('should not keep original title if "saveOriginal" option is false', () => {
+  it('should not keep original title if "keepOriginal" option is false', () => {
     document.title = 'original'
     const { unmount } = renderHook(() =>
-      useTitle('title', { saveOriginal: false }),
+      useTitle('title', { keepOriginal: false }),
     )
     expect(document.title).toBe('title')
     act(unmount)
