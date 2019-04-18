@@ -21,7 +21,9 @@ export const useInputs = <T extends { [name: string]: any }>(
   reset: () => void
 } => {
   const [inputs, setInputs] = useValues(initialInputs)
-  const reset = useCallback(() => setInputs(initialInputs), [])
+  const reset = useCallback(() => setInputs(initialInputs), [
+    ...Object.values(initialInputs),
+  ])
   const convert = TypeConverter(inputs)
   const onChange = Object.assign(
     {},
