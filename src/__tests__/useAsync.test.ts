@@ -46,3 +46,14 @@ describe('useAsync', () => {
     expect(result.current.error).not.toBeNull()
   })
 })
+
+it('can recieve no argument function', async () => {
+  const { result } = renderHook(() => useAsync(() => Promise.resolve(1), 0))
+
+  act(async () => {
+    // Warning in console
+    void result.current.doAsync()
+  })
+  await Promise.resolve()
+  expect(result.current.result).toBe(1)
+})

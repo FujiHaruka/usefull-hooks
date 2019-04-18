@@ -10,7 +10,7 @@ export interface UseAsyncValues<T> {
 }
 
 export const useAsync = <Arg, Result, Empty>(
-  fn: (arg: Arg) => Promise<Result>,
+  fn: (...args: [] | [Arg]) => Promise<Result>,
   emptyResult: Empty,
 ) => {
   const [{ ready, busy, result, error }, set] = useValues<
@@ -22,9 +22,9 @@ export const useAsync = <Arg, Result, Empty>(
     error: null,
   })
   const doAsync = useCallback(
-    (arg: Arg) => {
+    (...args: [] | [Arg]) => {
       set({ busy: true })
-      return fn(arg)
+      return fn(...args)
         .then((success) => {
           set({
             result: success,
