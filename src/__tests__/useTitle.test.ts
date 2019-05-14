@@ -1,8 +1,6 @@
-import { act, cleanup, renderHook } from 'react-hooks-testing-library'
+import { act, renderHook } from 'react-hooks-testing-library'
 
 import { useTitle } from '../'
-
-afterEach(cleanup)
 
 describe('useTitle', () => {
   it('should change title', () => {
@@ -16,6 +14,7 @@ describe('useTitle', () => {
     const { unmount } = renderHook(() => useTitle('title'))
     expect(document.title).toBe('title')
     act(() => unmount())
+    // FIXME:
     expect(document.title).toBe('original')
   })
 

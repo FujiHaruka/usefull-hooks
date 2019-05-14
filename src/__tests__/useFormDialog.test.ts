@@ -1,9 +1,7 @@
 import 'babel-polyfill'
-import { act, cleanup, renderHook } from 'react-hooks-testing-library'
+import { act, renderHook } from 'react-hooks-testing-library'
 
 import { useFormDialog } from '../'
-
-afterEach(cleanup)
 
 describe('useFormDialog', () => {
   it('should call callbacks', async () => {

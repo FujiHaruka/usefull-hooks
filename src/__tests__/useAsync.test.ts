@@ -1,9 +1,7 @@
 import 'babel-polyfill'
-import { act, cleanup, renderHook } from 'react-hooks-testing-library'
+import { act, renderHook } from 'react-hooks-testing-library'
 
 import { useAsync } from '../'
-
-afterEach(cleanup)
 
 describe('useAsync', () => {
   it('should work with async state', async () => {

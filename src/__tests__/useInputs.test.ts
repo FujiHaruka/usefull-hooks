@@ -1,8 +1,6 @@
-import { act, cleanup, renderHook } from 'react-hooks-testing-library'
+import { act, renderHook } from 'react-hooks-testing-library'
 
 import { useInputs } from '../'
-
-afterEach(cleanup)
 
 describe('useInputs', () => {
   const render = () =>
