@@ -9,6 +9,7 @@ describe('useInputs', () => {
         arg || {
           name: 'x',
           age: 20,
+          checked: false,
         },
       ),
     )
@@ -45,5 +46,25 @@ describe('useInputs', () => {
 
     act(() => result.current.reset())
     expect(result.current.inputs.age).toBe(10)
+  })
+
+  it('checkbox', () => {
+    const { result } = render()
+    act(() =>
+      result.current.onChange.checked({
+        target: {
+          checked: true,
+        },
+      }),
+    )
+    expect(result.current.inputs.checked).toBe(true)
+    act(() =>
+      result.current.onChange.checked({
+        target: {
+          checked: false,
+        },
+      }),
+    )
+    expect(result.current.inputs.checked).toBe(false)
   })
 })
