@@ -1,7 +1,7 @@
 import { createBrowserHistory } from 'history'
 
 import { useUrlSyncState } from '../'
-import { renderHook, act } from 'react-hooks-testing-library'
+import { renderHook, act } from '@testing-library/react-hooks'
 
 describe('useUrlSyncState', () => {
   type State = '/' | '/url-will-change' | '/url-will-not-change'
