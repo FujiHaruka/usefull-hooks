@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { MemoryRouter, Route, RouteComponentProps } from 'react-router-dom'
-import { cleanup, render } from 'react-testing-library'
+import { cleanup, render } from '@testing-library/react'
 
 import { useHistory, HistoryContextProvider } from '../'
 
