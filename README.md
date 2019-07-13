@@ -1,3 +1,13 @@
 # usefull-hooks
 
-React usefull hooks collection.
+React useful hooks collection.
+
+## Installation
+
+```
+$ npm install usefull-hooks
+```
+
+## API
+
+[API documentation](./doc/README.md)

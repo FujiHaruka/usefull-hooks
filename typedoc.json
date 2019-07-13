@@ -1,0 +1,11 @@
+{
+  "theme": "markdown",
+  "out": "doc",
+  "exclude": [
+    "src/index.ts"
+  ],
+  "include": [
+    "src/*.ts"
+  ],
+  "readme": "none"
+}

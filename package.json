@@ -30,6 +30,8 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "tslint-plugin-prettier": "^2.0.1",
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-markdown": "^2.0.9",
     "typescript": "^3.5.3"
   },
   "files": [
@@ -52,6 +54,7 @@
     "build": "npm-run-all build:cjs build:es",
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --outDir esm",
+    "doc": "typedoc",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "npm run build"
