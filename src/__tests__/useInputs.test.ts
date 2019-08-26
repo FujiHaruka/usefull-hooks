@@ -10,6 +10,7 @@ describe('useInputs', () => {
           name: 'x',
           age: 20,
           checked: false,
+          strings: ['foo', 'bar'],
         },
       ),
     )
@@ -42,10 +43,13 @@ describe('useInputs', () => {
     rerender({
       name: 'x',
       age: 10,
+      checked: true,
+      strings: [],
     })
 
     act(() => result.current.reset())
     expect(result.current.inputs.age).toBe(10)
+    expect(result.current.inputs.checked).toBe(true)
   })
 
   it('checkbox', () => {
@@ -66,5 +70,12 @@ describe('useInputs', () => {
       }),
     )
     expect(result.current.inputs.checked).toBe(false)
+  })
+
+  it('supports string[]', () => {
+    const { result } = render()
+    expect(result.current.inputs.strings).toEqual(['foo', 'bar'])
+    act(() => result.current.onChange.strings(event(['bar', 'baz'])))
+    expect(result.current.inputs.strings).toEqual(['bar', 'baz'])
   })
 })
