@@ -13,12 +13,7 @@ describe('useAsync', () => {
     expect(result.current.ready).toBeFalsy()
     expect(result.current.result).toBe(0)
 
-    act(async () => {
-      // Warning in console
-      void result.current.doAsync(1)
-    })
-
-    expect(result.current.busy).toBeTruthy()
+    await act(async () => result.current.doAsync(1))
 
     await Promise.resolve()
 
@@ -34,8 +29,7 @@ describe('useAsync', () => {
 
     let error: Error | null = null
     try {
-      // Warning
-      await result.current.doAsync(1)
+      await act(async () => result.current.doAsync(1))
     } catch (e) {
       error = e
     }
@@ -47,10 +41,7 @@ describe('useAsync', () => {
   it('can recieve no argument function', async () => {
     const { result } = renderHook(() => useAsync(() => Promise.resolve(1), 0))
 
-    act(async () => {
-      // Warning in console
-      void result.current.doAsync()
-    })
+    await act(async () => result.current.doAsync())
     await Promise.resolve()
     expect(result.current.result).toBe(1)
   })

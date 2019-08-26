@@ -34,7 +34,6 @@ export const useAsync = <Arg, Result, Empty>(
           return success
         })
         .catch((e) => {
-          console.error(e)
           set({
             result: emptyResult,
             error: e,
