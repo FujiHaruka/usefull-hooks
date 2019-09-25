@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useMemo, useState } from 'react'
+import { Dispatch, SetStateAction, useMemo, useState, useCallback } from 'react'
 
 export type UseValuesAction<T> = Dispatch<SetStateAction<Partial<T>>>
 
@@ -14,10 +14,11 @@ export const buildValuesSetter = <T>(set: Dispatch<SetStateAction<T>>) => (
 
 export const useValues = <T extends { [key: string]: any }>(
   initialValues: T,
-): [T, UseValuesAction<T>] => {
+): [T, UseValuesAction<T>, () => void] => {
   const [values, set] = useState<T>(initialValues)
 
   const setValues = useMemo(() => buildValuesSetter(set), [set])
+  const reset = useCallback(() => set(initialValues), [initialValues])
 
-  return [values, setValues]
+  return [values, setValues, reset]
 }

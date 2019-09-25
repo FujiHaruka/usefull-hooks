@@ -34,4 +34,29 @@ describe('useValues', () => {
       bool: false,
     })
   })
+
+  it('can reset', () => {
+    const { result } = renderHook(() =>
+      useValues<{ [key: string]: number }>({
+        foo: 1,
+        bar: 2,
+      }),
+    )
+
+    act(() => {
+      const [, set] = result.current
+      set({
+        baz: 3,
+      })
+    })
+    expect(result.current[0].baz).toBe(3)
+    act(() => {
+      const [, , reset] = result.current
+      reset()
+    })
+    expect(result.current[0]).toEqual({
+      foo: 1,
+      bar: 2,
+    })
+  })
 })
