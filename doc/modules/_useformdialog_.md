@@ -1,12 +1,10 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["useFormDialog"](_useformdialog_.md) /
+[usefull-hooks](../README.md) › ["useFormDialog"](_useformdialog_.md)
 
 # External module: "useFormDialog"
 
-### Index
+## Index
 
-#### Functions
+### Functions
 
 * [useFormDialog](_useformdialog_.md#const-useformdialog)
 
@@ -16,7 +14,7 @@
 
 ▸ **useFormDialog**(`__namedParameters`: object): *object*
 
-*Defined in [useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useFormDialog.ts#L4)*
+*Defined in [useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useFormDialog.ts#L4)*
 
 **Parameters:**
 
@@ -24,16 +22,16 @@
 
 Name | Type |
 ------ | ------ |
-`onCloseProp` | undefined \| function |
-`onOpenProp` | undefined \| function |
+`onCloseProp` | undefined &#124; function |
+`onOpenProp` | undefined &#124; function |
 `onSubmit` | function |
 
 **Returns:** *object*
 
 * **isOpen**: *boolean* =  openClose.isOpen
 
-* **onClose**: *`(Anonymous function)`*
+* **onClose**: *(Anonymous function)*
 
-* **onCloseAfterSubmit**: *`(Anonymous function)`*
+* **onCloseAfterSubmit**: *(Anonymous function)*
 
-* **onOpen**: *`(Anonymous function)`*
+* **onOpen**: *(Anonymous function)*

@@ -1,16 +1,14 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["useValues"](_usevalues_.md) /
+[usefull-hooks](../README.md) › ["useValues"](_usevalues_.md)
 
 # External module: "useValues"
 
-### Index
+## Index
 
-#### Type aliases
+### Type aliases
 
 * [UseValuesAction](_usevalues_.md#usevaluesaction)
 
-#### Functions
+### Functions
 
 * [buildValuesSetter](_usevalues_.md#const-buildvaluessetter)
 * [useValues](_usevalues_.md#const-usevalues)
@@ -19,17 +17,17 @@
 
 ###  UseValuesAction
 
-Ƭ **UseValuesAction**: *`Dispatch<SetStateAction<Partial<T>>>`*
+Ƭ **UseValuesAction**: *Dispatch‹SetStateAction‹Partial‹T›››*
 
-*Defined in [useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useValues.ts#L3)*
+*Defined in [useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L3)*
 
 ## Functions
 
 ### `Const` buildValuesSetter
 
-▸ **buildValuesSetter**<**T**>(`set`: `Dispatch<SetStateAction<T>>`): *`(Anonymous function)`*
+▸ **buildValuesSetter**<**T**>(`set`: Dispatch‹SetStateAction‹T››): *(Anonymous function)*
 
-*Defined in [useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useValues.ts#L5)*
+*Defined in [useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L5)*
 
 **Type parameters:**
 
@@ -39,17 +37,17 @@
 
 Name | Type |
 ------ | ------ |
-`set` | `Dispatch<SetStateAction<T>>` |
+`set` | Dispatch‹SetStateAction‹T›› |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *(Anonymous function)*
 
 ___
 
 ### `Const` useValues
 
-▸ **useValues**<**T**>(`initialValues`: `T`): *[`T`, [UseValuesAction](_usevalues_.md#usevaluesaction)‹*`T`*›]*
+▸ **useValues**<**T**>(`initialValues`: T): *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›, function]*
 
-*Defined in [useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useValues.ts#L15)*
+*Defined in [useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L15)*
 
 **Type parameters:**
 
@@ -59,6 +57,6 @@ ___
 
 Name | Type |
 ------ | ------ |
-`initialValues` | `T` |
+`initialValues` | T |
 
-**Returns:** *[`T`, [UseValuesAction](_usevalues_.md#usevaluesaction)‹*`T`*›]*
+**Returns:** *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›, function]*

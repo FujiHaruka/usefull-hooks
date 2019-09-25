@@ -1,24 +1,34 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["useInputs"](_useinputs_.md) /
+[usefull-hooks](../README.md) › ["useInputs"](_useinputs_.md)
 
 # External module: "useInputs"
 
-### Index
+## Index
 
-#### Functions
+### Type aliases
+
+* [UseInputsValue](_useinputs_.md#useinputsvalue)
+
+### Functions
 
 * [TypeConverter](_useinputs_.md#const-typeconverter)
 * [ValueAttrSelector](_useinputs_.md#const-valueattrselector)
 * [useInputs](_useinputs_.md#const-useinputs)
 
+## Type aliases
+
+###  UseInputsValue
+
+Ƭ **UseInputsValue**: *string | number | boolean | string[]*
+
+*Defined in [useInputs.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L4)*
+
 ## Functions
 
 ### `Const` TypeConverter
 
-▸ **TypeConverter**(`inputs`: any): *`(Anonymous function)`*
+▸ **TypeConverter**(`inputs`: any): *(Anonymous function)*
 
-*Defined in [useInputs.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useInputs.ts#L5)*
+*Defined in [useInputs.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L7)*
 
 **Parameters:**
 
@@ -26,15 +36,15 @@ Name | Type |
 ------ | ------ |
 `inputs` | any |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *(Anonymous function)*
 
 ___
 
 ### `Const` ValueAttrSelector
 
-▸ **ValueAttrSelector**(`inputs`: any): *`(Anonymous function)`*
+▸ **ValueAttrSelector**(`inputs`: any): *(Anonymous function)*
 
-*Defined in [useInputs.ts:20](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useInputs.ts#L20)*
+*Defined in [useInputs.ts:24](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L24)*
 
 **Parameters:**
 
@@ -42,15 +52,15 @@ Name | Type |
 ------ | ------ |
 `inputs` | any |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *(Anonymous function)*
 
 ___
 
 ### `Const` useInputs
 
-▸ **useInputs**<**T**>(`initialInputs`: `T`): *object*
+▸ **useInputs**<**T**>(`initialInputs`: T): *object*
 
-*Defined in [useInputs.ts:34](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useInputs.ts#L34)*
+*Defined in [useInputs.ts:45](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L45)*
 
 **Type parameters:**
 
@@ -60,11 +70,11 @@ ___
 
 Name | Type |
 ------ | ------ |
-`initialInputs` | `T` |
+`initialInputs` | T |
 
 **Returns:** *object*
 
-* **inputs**: *`T`*
+* **inputs**: *T*
 
 * **onChange**(): *object*
 

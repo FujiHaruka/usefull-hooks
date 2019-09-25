@@ -1,12 +1,10 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["useTitle"](_usetitle_.md) /
+[usefull-hooks](../README.md) › ["useTitle"](_usetitle_.md)
 
 # External module: "useTitle"
 
-### Index
+## Index
 
-#### Functions
+### Functions
 
 * [useTitle](_usetitle_.md#const-usetitle)
 
@@ -16,7 +14,7 @@
 
 ▸ **useTitle**(`title`: string, `options`: object): *void*
 
-*Defined in [useTitle.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useTitle.ts#L4)*
+*Defined in [useTitle.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useTitle.ts#L4)*
 
 **Parameters:**
 

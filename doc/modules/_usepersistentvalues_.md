@@ -1,12 +1,10 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["usePersistentValues"](_usepersistentvalues_.md) /
+[usefull-hooks](../README.md) › ["usePersistentValues"](_usepersistentvalues_.md)
 
 # External module: "usePersistentValues"
 
-### Index
+## Index
 
-#### Functions
+### Functions
 
 * [usePersistentValues](_usepersistentvalues_.md#const-usepersistentvalues)
 
@@ -14,9 +12,9 @@
 
 ### `Const` usePersistentValues
 
-▸ **usePersistentValues**<**T**>(`key`: string, `initialValues`: `T`): *[`T`, [UseValuesAction](_usevalues_.md#usevaluesaction)‹*`T`*›]*
+▸ **usePersistentValues**<**T**>(`key`: string, `initialValues`: T): *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›]*
 
-*Defined in [usePersistentValues.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/usePersistentValues.ts#L6)*
+*Defined in [usePersistentValues.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/usePersistentValues.ts#L6)*
 
 **Type parameters:**
 
@@ -27,6 +25,6 @@
 Name | Type |
 ------ | ------ |
 `key` | string |
-`initialValues` | `T` |
+`initialValues` | T |
 
-**Returns:** *[`T`, [UseValuesAction](_usevalues_.md#usevaluesaction)‹*`T`*›]*
+**Returns:** *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›]*

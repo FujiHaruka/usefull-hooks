@@ -1,20 +1,18 @@
-> **[usefull-hooks](../README.md)**
-
-[Globals](../README.md) / ["useHistory"](_usehistory_.md) /
+[usefull-hooks](../README.md) › ["useHistory"](_usehistory_.md)
 
 # External module: "useHistory"
 
-### Index
+## Index
 
-#### Type aliases
+### Type aliases
 
 * [History](_usehistory_.md#history)
 
-#### Variables
+### Variables
 
 * [HistoryContext](_usehistory_.md#const-historycontext)
 
-#### Functions
+### Functions
 
 * [HistoryContextProvider](_usehistory_.md#const-historycontextprovider)
 * [useHistory](_usehistory_.md#const-usehistory)
@@ -23,25 +21,25 @@
 
 ###  History
 
-Ƭ **History**: *`History`*
+Ƭ **History**: *History*
 
-*Defined in [useHistory.tsx:4](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useHistory.tsx#L4)*
+*Defined in [useHistory.tsx:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L4)*
 
 ## Variables
 
 ### `Const` HistoryContext
 
-• **HistoryContext**: *`Context<History<any>>`* =  React.createContext<History>(null as any)
+• **HistoryContext**: *Context‹History‹any››* =  React.createContext<History>(null as any)
 
-*Defined in [useHistory.tsx:6](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useHistory.tsx#L6)*
+*Defined in [useHistory.tsx:6](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L6)*
 
 ## Functions
 
 ### `Const` HistoryContextProvider
 
-▸ **HistoryContextProvider**(`__namedParameters`: object): *`Element`*
+▸ **HistoryContextProvider**(`__namedParameters`: object): *Element*
 
-*Defined in [useHistory.tsx:11](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useHistory.tsx#L11)*
+*Defined in [useHistory.tsx:11](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L11)*
 
 Context provider for useHistory() hook
 
@@ -51,19 +49,19 @@ Context provider for useHistory() hook
 
 Name | Type |
 ------ | ------ |
-`children` | undefined \| null \| string \| number \| false \| true \| `__type` \| `ReactElement<any, string \| function \| object>` \| `ReactNodeArray` \| `ReactPortal` |
-`history` | `History<any>` |
+`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; __type &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray &#124; ReactPortal |
+`history` | History‹any› |
 
-**Returns:** *`Element`*
+**Returns:** *Element*
 
 ___
 
 ### `Const` useHistory
 
-▸ **useHistory**(): *`History`*
+▸ **useHistory**(): *History*
 
-*Defined in [useHistory.tsx:24](https://github.com/FujiHaruka/usefull-hooks/blob/e7b36a2/src/useHistory.tsx#L24)*
+*Defined in [useHistory.tsx:24](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L24)*
 
 Hook to use history object via context
 
-**Returns:** *`History`*
+**Returns:** *History*

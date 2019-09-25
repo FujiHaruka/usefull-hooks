@@ -1,10 +1,10 @@
-> **[usefull-hooks](README.md)**
+[usefull-hooks](README.md)
 
-[Globals](README.md) /
+# usefull-hooks
 
-### Index
+## Index
 
-#### External modules
+### External modules
 
 * ["useAnchor"](modules/_useanchor_.md)
 * ["useAsync"](modules/_useasync_.md)
