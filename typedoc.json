@@ -4,7 +4,7 @@
   "exclude": [
     "src/index.ts"
   ],
-  "include": [
+  "includes": [
     "src/*.ts"
   ],
   "readme": "none"
