@@ -20,7 +20,7 @@
 
 Ƭ **UseInputsValue**: *string | number | boolean | string[]*
 
-*Defined in [useInputs.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L4)*
+*Defined in [src/useInputs.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L4)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **TypeConverter**(`inputs`: any): *(Anonymous function)*
 
-*Defined in [useInputs.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L7)*
+*Defined in [src/useInputs.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L7)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 ▸ **ValueAttrSelector**(`inputs`: any): *(Anonymous function)*
 
-*Defined in [useInputs.ts:24](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L24)*
+*Defined in [src/useInputs.ts:24](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L24)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **useInputs**<**T**>(`initialInputs`: T): *object*
 
-*Defined in [useInputs.ts:45](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useInputs.ts#L45)*
+*Defined in [src/useInputs.ts:45](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L45)*
 
 **Type parameters:**
 

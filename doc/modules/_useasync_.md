@@ -18,7 +18,7 @@
 
 ▸ **useAsync**<**Arg**, **Result**, **Empty**>(`fn`: function, `emptyResult`: Empty): *object*
 
-*Defined in [useAsync.ts:12](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAsync.ts#L12)*
+*Defined in [src/useAsync.ts:12](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L12)*
 
 **Type parameters:**
 

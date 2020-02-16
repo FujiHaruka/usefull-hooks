@@ -14,7 +14,7 @@
 
 ▸ **useFormDialog**(`__namedParameters`: object): *object*
 
-*Defined in [useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useFormDialog.ts#L4)*
+*Defined in [src/useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useFormDialog.ts#L4)*
 
 **Parameters:**
 
@@ -28,7 +28,7 @@ Name | Type |
 
 **Returns:** *object*
 
-* **isOpen**: *boolean* =  openClose.isOpen
+* **isOpen**: *boolean* = openClose.isOpen
 
 * **onClose**: *(Anonymous function)*
 

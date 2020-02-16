@@ -14,7 +14,7 @@
 
 ▸ **usePersistentValues**<**T**>(`key`: string, `initialValues`: T): *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›]*
 
-*Defined in [usePersistentValues.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/usePersistentValues.ts#L6)*
+*Defined in [src/usePersistentValues.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/usePersistentValues.ts#L6)*
 
 **Type parameters:**
 

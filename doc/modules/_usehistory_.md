@@ -21,25 +21,25 @@
 
 ###  History
 
-Ƭ **History**: *History*
+Ƭ **History**: *RouteComponentProps["history"]*
 
-*Defined in [useHistory.tsx:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L4)*
+*Defined in [src/useHistory.tsx:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useHistory.tsx#L4)*
 
 ## Variables
 
 ### `Const` HistoryContext
 
-• **HistoryContext**: *Context‹History‹any››* =  React.createContext<History>(null as any)
+• **HistoryContext**: *Context‹History‹undefined | null | object››* = React.createContext<History>(null as any)
 
-*Defined in [useHistory.tsx:6](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L6)*
+*Defined in [src/useHistory.tsx:6](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useHistory.tsx#L6)*
 
 ## Functions
 
 ### `Const` HistoryContextProvider
 
-▸ **HistoryContextProvider**(`__namedParameters`: object): *Element*
+▸ **HistoryContextProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [useHistory.tsx:11](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L11)*
+*Defined in [src/useHistory.tsx:11](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useHistory.tsx#L11)*
 
 Context provider for useHistory() hook
 
@@ -49,10 +49,10 @@ Context provider for useHistory() hook
 
 Name | Type |
 ------ | ------ |
-`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; __type &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray &#124; ReactPortal |
-`history` | History‹any› |
+`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
+`history` | History‹undefined &#124; null &#124; object› |
 
-**Returns:** *Element*
+**Returns:** *Element‹›*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **useHistory**(): *History*
 
-*Defined in [useHistory.tsx:24](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useHistory.tsx#L24)*
+*Defined in [src/useHistory.tsx:24](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useHistory.tsx#L24)*
 
 Hook to use history object via context
 

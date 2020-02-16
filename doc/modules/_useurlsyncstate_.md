@@ -12,9 +12,9 @@
 
 ### `Const` useUrlSyncState
 
-▸ **useUrlSyncState**<**T**>(`initialState`: T, `stateToPath`: function, `history`: History): *[T, function]*
+▸ **useUrlSyncState**<**T**>(`initialState`: T, `stateToPath`: function, `history`: RouteComponentProps["history"]): *[T, function]*
 
-*Defined in [useUrlSyncState.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useUrlSyncState.ts#L4)*
+*Defined in [src/useUrlSyncState.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUrlSyncState.ts#L4)*
 
 **Type parameters:**
 
@@ -34,6 +34,6 @@ Name | Type |
 ------ | ------ |
 `state` | T |
 
-▪ **history**: *History*
+▪ **history**: *RouteComponentProps["history"]*
 
 **Returns:** *[T, function]*

@@ -14,7 +14,7 @@
 
 ▸ **useUnmountEffect**(`effect`: ReturnType‹EffectCallback›): *void*
 
-*Defined in [useUnmountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useUnmountEffect.ts#L3)*
+*Defined in [src/useUnmountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUnmountEffect.ts#L3)*
 
 **Parameters:**
 

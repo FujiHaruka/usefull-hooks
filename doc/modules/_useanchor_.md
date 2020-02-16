@@ -14,7 +14,7 @@
 
 ▸ **useAnchor**(): *object*
 
-*Defined in [useAnchor.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAnchor.ts#L7)*
+*Defined in [src/useAnchor.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAnchor.ts#L7)*
 
 Hook to use anchor for popover menu
 https://material-ui.com/demos/menus/#menus
@@ -27,4 +27,4 @@ https://material-ui.com/demos/menus/#menus
 
 * **onOpen**: *(Anonymous function)*
 
-* **open**: *boolean* =  Boolean(anchorEl)
+* **open**: *boolean* = Boolean(anchorEl)

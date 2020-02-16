@@ -14,7 +14,7 @@
 
 ▸ **useMountEffect**(`effect`: EffectCallback): *void*
 
-*Defined in [useMountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useMountEffect.ts#L3)*
+*Defined in [src/useMountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useMountEffect.ts#L3)*
 
 **Parameters:**
 

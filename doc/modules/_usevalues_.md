@@ -19,7 +19,7 @@
 
 Ƭ **UseValuesAction**: *Dispatch‹SetStateAction‹Partial‹T›››*
 
-*Defined in [useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L3)*
+*Defined in [src/useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L3)*
 
 ## Functions
 
@@ -27,7 +27,7 @@
 
 ▸ **buildValuesSetter**<**T**>(`set`: Dispatch‹SetStateAction‹T››): *(Anonymous function)*
 
-*Defined in [useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L5)*
+*Defined in [src/useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L5)*
 
 **Type parameters:**
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **useValues**<**T**>(`initialValues`: T): *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›, function]*
 
-*Defined in [useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useValues.ts#L15)*
+*Defined in [src/useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L15)*
 
 **Type parameters:**
 

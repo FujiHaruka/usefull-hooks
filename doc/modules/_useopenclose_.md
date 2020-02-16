@@ -14,7 +14,7 @@
 
 ▸ **useOpenClose**(`initalState`: boolean): *object*
 
-*Defined in [useOpenClose.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useOpenClose.ts#L3)*
+*Defined in [src/useOpenClose.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useOpenClose.ts#L3)*
 
 **Parameters:**
 

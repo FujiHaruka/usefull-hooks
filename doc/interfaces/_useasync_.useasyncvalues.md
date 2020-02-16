@@ -25,7 +25,7 @@
 
 • **busy**: *boolean*
 
-*Defined in [useAsync.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAsync.ts#L7)*
+*Defined in [src/useAsync.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L7)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **error**: *Error | null*
 
-*Defined in [useAsync.ts:9](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAsync.ts#L9)*
+*Defined in [src/useAsync.ts:9](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L9)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **ready**: *boolean*
 
-*Defined in [useAsync.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAsync.ts#L6)*
+*Defined in [src/useAsync.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L6)*
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 • **result**: *T*
 
-*Defined in [useAsync.ts:8](https://github.com/FujiHaruka/usefull-hooks/blob/a7c0738/src/useAsync.ts#L8)*
+*Defined in [src/useAsync.ts:8](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L8)*
