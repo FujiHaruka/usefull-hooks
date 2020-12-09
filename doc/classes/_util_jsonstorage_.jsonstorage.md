@@ -1,12 +1,16 @@
-[usefull-hooks](../README.md) › ["util/JSONStorage"](../modules/_util_jsonstorage_.md) › [JSONStorage](_util_jsonstorage_.jsonstorage.md)
+**[usefull-hooks](../README.md)**
 
-# Class: JSONStorage <**T**>
+> [Globals](../README.md) / ["util/JSONStorage"](../modules/_util_jsonstorage_.md) / JSONStorage
+
+# Class: JSONStorage<T\>
 
 Wrapper of localstorage to save JSON data
 
 ## Type parameters
 
-▪ **T**
+Name |
+------ |
+`T` |
 
 ## Hierarchy
 
@@ -24,7 +28,7 @@ Wrapper of localstorage to save JSON data
 
 ### Accessors
 
-* [storage](_util_jsonstorage_.jsonstorage.md#private-storage)
+* [storage](_util_jsonstorage_.jsonstorage.md#storage)
 
 ### Methods
 
@@ -34,70 +38,70 @@ Wrapper of localstorage to save JSON data
 
 ## Constructors
 
-###  constructor
+### constructor
 
-\+ **new JSONStorage**(`key`: string): *[JSONStorage](_util_jsonstorage_.jsonstorage.md)*
+\+ **new JSONStorage**(`key`: string): [JSONStorage](_util_jsonstorage_.jsonstorage.md)
 
-*Defined in [src/util/JSONStorage.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L5)*
+*Defined in [util/JSONStorage.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L5)*
 
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `key` | string |
 
-**Returns:** *[JSONStorage](_util_jsonstorage_.jsonstorage.md)*
+**Returns:** [JSONStorage](_util_jsonstorage_.jsonstorage.md)
 
 ## Properties
 
-###  key
+### key
 
-• **key**: *string*
+•  **key**: string
 
-*Defined in [src/util/JSONStorage.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L5)*
+*Defined in [util/JSONStorage.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L5)*
 
 ## Accessors
 
-### `Private` storage
+### storage
 
-• **get storage**(): *Storage*
+• `Private`get **storage**(): Storage
 
-*Defined in [src/util/JSONStorage.ts:27](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L27)*
+*Defined in [util/JSONStorage.ts:27](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L27)*
 
-**Returns:** *Storage*
+**Returns:** Storage
 
 ## Methods
 
-###  clear
+### clear
 
-▸ **clear**(): *void*
+▸ **clear**(): void
 
-*Defined in [src/util/JSONStorage.ts:23](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L23)*
+*Defined in [util/JSONStorage.ts:23](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L23)*
 
-**Returns:** *void*
-
-___
-
-###  get
-
-▸ **get**(): *null | T*
-
-*Defined in [src/util/JSONStorage.ts:10](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L10)*
-
-**Returns:** *null | T*
+**Returns:** void
 
 ___
 
-###  save
+### get
 
-▸ **save**(`value`: T): *void*
+▸ **get**(): null \| T
 
-*Defined in [src/util/JSONStorage.ts:18](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L18)*
+*Defined in [util/JSONStorage.ts:10](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L10)*
 
-**Parameters:**
+**Returns:** null \| T
+
+___
+
+### save
+
+▸ **save**(`value`: T): void
+
+*Defined in [util/JSONStorage.ts:18](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/util/JSONStorage.ts#L18)*
+
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `value` | T |
 
-**Returns:** *void*
+**Returns:** void

@@ -1,6 +1,8 @@
-[usefull-hooks](../README.md) › ["useValues"](_usevalues_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useValues"
+> [Globals](../README.md) / "useValues"
+
+# Module: "useValues"
 
 ## Index
 
@@ -10,53 +12,63 @@
 
 ### Functions
 
-* [buildValuesSetter](_usevalues_.md#const-buildvaluessetter)
-* [useValues](_usevalues_.md#const-usevalues)
+* [buildValuesSetter](_usevalues_.md#buildvaluessetter)
+* [useValues](_usevalues_.md#usevalues)
 
 ## Type aliases
 
-###  UseValuesAction
+### UseValuesAction
 
-Ƭ **UseValuesAction**: *Dispatch‹SetStateAction‹Partial‹T›››*
+Ƭ  **UseValuesAction**<T\>: Dispatch<SetStateAction<Partial<T\>\>\>
 
-*Defined in [src/useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L3)*
+*Defined in [useValues.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L3)*
+
+#### Type parameters:
+
+Name |
+------ |
+`T` |
 
 ## Functions
 
-### `Const` buildValuesSetter
+### buildValuesSetter
 
-▸ **buildValuesSetter**<**T**>(`set`: Dispatch‹SetStateAction‹T››): *(Anonymous function)*
+▸ `Const`**buildValuesSetter**<T\>(`set`: Dispatch<SetStateAction<T\>\>): (Anonymous function)
 
-*Defined in [src/useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L5)*
+*Defined in [useValues.ts:5](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L5)*
 
-**Type parameters:**
+#### Type parameters:
 
-▪ **T**
+Name |
+------ |
+`T` |
 
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
-`set` | Dispatch‹SetStateAction‹T›› |
+`set` | Dispatch<SetStateAction<T\>\> |
 
-**Returns:** *(Anonymous function)*
+**Returns:** (Anonymous function)
 
 ___
 
-### `Const` useValues
+### useValues
 
-▸ **useValues**<**T**>(`initialValues`: T): *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›, function]*
+▸ `Const`**useValues**<T\>(`initialValues`: T): [T, [UseValuesAction](_usevalues_.md#usevaluesaction)<T\>, () => void]
 
-*Defined in [src/useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L15)*
+*Defined in [useValues.ts:15](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useValues.ts#L15)*
 
-**Type parameters:**
+#### Type parameters:
 
-▪ **T**: *object*
+Name | Type |
+------ | ------ |
+`T` | { [key:string]: any;  } |
 
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `initialValues` | T |
 
-**Returns:** *[T, [UseValuesAction](_usevalues_.md#usevaluesaction)‹T›, function]*
+**Returns:** [T, [UseValuesAction](_usevalues_.md#usevaluesaction)<T\>, () => void]

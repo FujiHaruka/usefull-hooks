@@ -1,6 +1,8 @@
-[usefull-hooks](../README.md) › ["useAsync"](_useasync_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useAsync"
+> [Globals](../README.md) / "useAsync"
+
+# Module: "useAsync"
 
 ## Index
 
@@ -10,48 +12,38 @@
 
 ### Functions
 
-* [useAsync](_useasync_.md#const-useasync)
+* [useAsync](_useasync_.md#useasync)
 
 ## Functions
 
-### `Const` useAsync
+### useAsync
 
-▸ **useAsync**<**Arg**, **Result**, **Empty**>(`fn`: function, `emptyResult`: Empty): *object*
+▸ `Const`**useAsync**<Arg, Result, Empty\>(`fn`: (...args: Arg[]) => Promise<Result\>, `emptyResult`: Empty): object
 
-*Defined in [src/useAsync.ts:12](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L12)*
+*Defined in [useAsync.ts:12](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L12)*
 
-**Type parameters:**
+#### Type parameters:
 
-▪ **Arg**
+Name |
+------ |
+`Arg` |
+`Result` |
+`Empty` |
 
-▪ **Result**
-
-▪ **Empty**
-
-**Parameters:**
-
-▪ **fn**: *function*
-
-▸ (...`args`: Arg[]): *Promise‹Result›*
-
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
-`...args` | Arg[] |
+`fn` | (...args: Arg[]) => Promise<Result\> |
+`emptyResult` | Empty |
 
-▪ **emptyResult**: *Empty*
+**Returns:** object
 
-**Returns:** *object*
-
-* **busy**: *boolean*
-
-* **doAsync**: *(Anonymous function)*
-
-* **error**: *null | Error*
-
-* **ready**: *boolean*
-
-* **reset**: *(Anonymous function)*
-
-* **result**: *Result | Empty*
+Name | Type |
+------ | ------ |
+`busy` | boolean |
+`doAsync` | (Anonymous function) |
+`error` | null \| Error |
+`ready` | boolean |
+`reset` | (Anonymous function) |
+`result` | Result \| Empty |

@@ -1,25 +1,27 @@
-[usefull-hooks](../README.md) › ["useMountEffect"](_usemounteffect_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useMountEffect"
+> [Globals](../README.md) / "useMountEffect"
+
+# Module: "useMountEffect"
 
 ## Index
 
 ### Functions
 
-* [useMountEffect](_usemounteffect_.md#const-usemounteffect)
+* [useMountEffect](_usemounteffect_.md#usemounteffect)
 
 ## Functions
 
-### `Const` useMountEffect
+### useMountEffect
 
-▸ **useMountEffect**(`effect`: EffectCallback): *void*
+▸ `Const`**useMountEffect**(`effect`: EffectCallback): void
 
-*Defined in [src/useMountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useMountEffect.ts#L3)*
+*Defined in [useMountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useMountEffect.ts#L3)*
 
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `effect` | EffectCallback |
 
-**Returns:** *void*
+**Returns:** void

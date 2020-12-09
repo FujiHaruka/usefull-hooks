@@ -1,31 +1,33 @@
-[usefull-hooks](../README.md) › ["useOpenClose"](_useopenclose_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useOpenClose"
+> [Globals](../README.md) / "useOpenClose"
+
+# Module: "useOpenClose"
 
 ## Index
 
 ### Functions
 
-* [useOpenClose](_useopenclose_.md#const-useopenclose)
+* [useOpenClose](_useopenclose_.md#useopenclose)
 
 ## Functions
 
-### `Const` useOpenClose
+### useOpenClose
 
-▸ **useOpenClose**(`initalState`: boolean): *object*
+▸ `Const`**useOpenClose**(`initalState?`: boolean): object
 
-*Defined in [src/useOpenClose.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useOpenClose.ts#L3)*
+*Defined in [useOpenClose.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useOpenClose.ts#L3)*
 
-**Parameters:**
+#### Parameters:
 
-Name | Type | Default |
+Name | Type | Default value |
 ------ | ------ | ------ |
 `initalState` | boolean | false |
 
-**Returns:** *object*
+**Returns:** object
 
-* **isOpen**: *boolean*
-
-* **onClose**: *(Anonymous function)*
-
-* **onOpen**: *(Anonymous function)*
+Name | Type |
+------ | ------ |
+`isOpen` | boolean |
+`onClose` | (Anonymous function) |
+`onOpen` | (Anonymous function) |

@@ -1,39 +1,35 @@
-[usefull-hooks](../README.md) › ["useUrlSyncState"](_useurlsyncstate_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useUrlSyncState"
+> [Globals](../README.md) / "useUrlSyncState"
+
+# Module: "useUrlSyncState"
 
 ## Index
 
 ### Functions
 
-* [useUrlSyncState](_useurlsyncstate_.md#const-useurlsyncstate)
+* [useUrlSyncState](_useurlsyncstate_.md#useurlsyncstate)
 
 ## Functions
 
-### `Const` useUrlSyncState
+### useUrlSyncState
 
-▸ **useUrlSyncState**<**T**>(`initialState`: T, `stateToPath`: function, `history`: RouteComponentProps["history"]): *[T, function]*
+▸ `Const`**useUrlSyncState**<T\>(`initialState`: T, `stateToPath`: (state: T) => string \| null, `history`: RouteComponentProps[\"history\"]): [T, (state: T) => void]
 
-*Defined in [src/useUrlSyncState.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUrlSyncState.ts#L4)*
+*Defined in [useUrlSyncState.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUrlSyncState.ts#L4)*
 
-**Type parameters:**
+#### Type parameters:
 
-▪ **T**
+Name |
+------ |
+`T` |
 
-**Parameters:**
-
-▪ **initialState**: *T*
-
-▪ **stateToPath**: *function*
-
-▸ (`state`: T): *string | null*
-
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
-`state` | T |
+`initialState` | T |
+`stateToPath` | (state: T) => string \| null |
+`history` | RouteComponentProps[\"history\"] |
 
-▪ **history**: *RouteComponentProps["history"]*
-
-**Returns:** *[T, function]*
+**Returns:** [T, (state: T) => void]

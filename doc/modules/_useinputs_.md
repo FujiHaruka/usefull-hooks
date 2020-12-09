@@ -1,6 +1,8 @@
-[usefull-hooks](../README.md) › ["useInputs"](_useinputs_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useInputs"
+> [Globals](../README.md) / "useInputs"
+
+# Module: "useInputs"
 
 ## Index
 
@@ -10,74 +12,74 @@
 
 ### Functions
 
-* [TypeConverter](_useinputs_.md#const-typeconverter)
-* [ValueAttrSelector](_useinputs_.md#const-valueattrselector)
-* [useInputs](_useinputs_.md#const-useinputs)
+* [TypeConverter](_useinputs_.md#typeconverter)
+* [ValueAttrSelector](_useinputs_.md#valueattrselector)
+* [useInputs](_useinputs_.md#useinputs)
 
 ## Type aliases
 
-###  UseInputsValue
+### UseInputsValue
 
-Ƭ **UseInputsValue**: *string | number | boolean | string[]*
+Ƭ  **UseInputsValue**: string \| number \| boolean \| string[]
 
-*Defined in [src/useInputs.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L4)*
+*Defined in [useInputs.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L4)*
 
 ## Functions
 
-### `Const` TypeConverter
+### TypeConverter
 
-▸ **TypeConverter**(`inputs`: any): *(Anonymous function)*
+▸ `Const`**TypeConverter**(`inputs`: any): (Anonymous function)
 
-*Defined in [src/useInputs.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L7)*
+*Defined in [useInputs.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L7)*
 
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`inputs` | any |
-
-**Returns:** *(Anonymous function)*
-
-___
-
-### `Const` ValueAttrSelector
-
-▸ **ValueAttrSelector**(`inputs`: any): *(Anonymous function)*
-
-*Defined in [src/useInputs.ts:24](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L24)*
-
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `inputs` | any |
 
-**Returns:** *(Anonymous function)*
+**Returns:** (Anonymous function)
 
 ___
 
-### `Const` useInputs
+### ValueAttrSelector
 
-▸ **useInputs**<**T**>(`initialInputs`: T): *object*
+▸ `Const`**ValueAttrSelector**(`inputs`: any): (Anonymous function)
 
-*Defined in [src/useInputs.ts:45](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L45)*
+*Defined in [useInputs.ts:24](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L24)*
 
-**Type parameters:**
+#### Parameters:
 
-▪ **T**: *object*
+Name | Type |
+------ | ------ |
+`inputs` | any |
 
-**Parameters:**
+**Returns:** (Anonymous function)
+
+___
+
+### useInputs
+
+▸ `Const`**useInputs**<T\>(`initialInputs`: T): object
+
+*Defined in [useInputs.ts:45](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useInputs.ts#L45)*
+
+#### Type parameters:
+
+Name | Type |
+------ | ------ |
+`T` | { [name:string]: [UseInputsValue](_useinputs_.md#useinputsvalue);  } |
+
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
 `initialInputs` | T |
 
-**Returns:** *object*
+**Returns:** object
 
-* **inputs**: *T*
-
-* **onChange**(): *object*
-
-* **reset**(): *function*
-
-  * (): *void*
+Name | Type |
+------ | ------ |
+`inputs` | T |
+`onChange` | {} |
+`reset` | () => void |

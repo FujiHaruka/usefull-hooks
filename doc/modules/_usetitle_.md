@@ -1,29 +1,28 @@
-[usefull-hooks](../README.md) › ["useTitle"](_usetitle_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useTitle"
+> [Globals](../README.md) / "useTitle"
+
+# Module: "useTitle"
 
 ## Index
 
 ### Functions
 
-* [useTitle](_usetitle_.md#const-usetitle)
+* [useTitle](_usetitle_.md#usetitle)
 
 ## Functions
 
-### `Const` useTitle
+### useTitle
 
-▸ **useTitle**(`title`: string, `options`: object): *void*
+▸ `Const`**useTitle**(`title`: string, `options?`: { keepOriginal: boolean  }): void
 
-*Defined in [src/useTitle.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useTitle.ts#L4)*
+*Defined in [useTitle.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useTitle.ts#L4)*
 
-**Parameters:**
+#### Parameters:
 
-▪ **title**: *string*
+Name | Type | Default value |
+------ | ------ | ------ |
+`title` | string | - |
+`options` | { keepOriginal: boolean  } | { keepOriginal: true } |
 
-▪`Default value`  **options**: *object*= { keepOriginal: true }
-
-Name | Type |
------- | ------ |
-`keepOriginal` | boolean |
-
-**Returns:** *void*
+**Returns:** void

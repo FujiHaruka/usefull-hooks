@@ -1,6 +1,8 @@
-[usefull-hooks](../README.md) › ["util/JSONStorage"](_util_jsonstorage_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "util/JSONStorage"
+> [Globals](../README.md) / "util/JSONStorage"
+
+# Module: "util/JSONStorage"
 
 ## Index
 

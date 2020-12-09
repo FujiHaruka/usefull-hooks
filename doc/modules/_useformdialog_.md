@@ -1,37 +1,34 @@
-[usefull-hooks](../README.md) › ["useFormDialog"](_useformdialog_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useFormDialog"
+> [Globals](../README.md) / "useFormDialog"
+
+# Module: "useFormDialog"
 
 ## Index
 
 ### Functions
 
-* [useFormDialog](_useformdialog_.md#const-useformdialog)
+* [useFormDialog](_useformdialog_.md#useformdialog)
 
 ## Functions
 
-### `Const` useFormDialog
+### useFormDialog
 
-▸ **useFormDialog**(`__namedParameters`: object): *object*
+▸ `Const`**useFormDialog**(`__namedParameters`: { onCloseProp: undefined \| () => void ; onOpenProp: undefined \| () => void ; onSubmit: () => Promise<any\>  }): object
 
-*Defined in [src/useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useFormDialog.ts#L4)*
+*Defined in [useFormDialog.ts:4](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useFormDialog.ts#L4)*
 
-**Parameters:**
-
-▪ **__namedParameters**: *object*
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
-`onCloseProp` | undefined &#124; function |
-`onOpenProp` | undefined &#124; function |
-`onSubmit` | function |
+`__namedParameters` | { onCloseProp: undefined \| () => void ; onOpenProp: undefined \| () => void ; onSubmit: () => Promise<any\>  } |
 
-**Returns:** *object*
+**Returns:** object
 
-* **isOpen**: *boolean* = openClose.isOpen
-
-* **onClose**: *(Anonymous function)*
-
-* **onCloseAfterSubmit**: *(Anonymous function)*
-
-* **onOpen**: *(Anonymous function)*
+Name | Type |
+------ | ------ |
+`isOpen` | boolean |
+`onClose` | (Anonymous function) |
+`onCloseAfterSubmit` | (Anonymous function) |
+`onOpen` | (Anonymous function) |

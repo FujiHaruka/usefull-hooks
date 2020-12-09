@@ -1,25 +1,27 @@
-[usefull-hooks](../README.md) › ["useUnmountEffect"](_useunmounteffect_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useUnmountEffect"
+> [Globals](../README.md) / "useUnmountEffect"
+
+# Module: "useUnmountEffect"
 
 ## Index
 
 ### Functions
 
-* [useUnmountEffect](_useunmounteffect_.md#const-useunmounteffect)
+* [useUnmountEffect](_useunmounteffect_.md#useunmounteffect)
 
 ## Functions
 
-### `Const` useUnmountEffect
+### useUnmountEffect
 
-▸ **useUnmountEffect**(`effect`: ReturnType‹EffectCallback›): *void*
+▸ `Const`**useUnmountEffect**(`effect`: ReturnType<EffectCallback\>): void
 
-*Defined in [src/useUnmountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUnmountEffect.ts#L3)*
+*Defined in [useUnmountEffect.ts:3](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useUnmountEffect.ts#L3)*
 
-**Parameters:**
+#### Parameters:
 
 Name | Type |
 ------ | ------ |
-`effect` | ReturnType‹EffectCallback› |
+`effect` | ReturnType<EffectCallback\> |
 
-**Returns:** *void*
+**Returns:** void

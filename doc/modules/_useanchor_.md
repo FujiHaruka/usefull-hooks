@@ -1,30 +1,31 @@
-[usefull-hooks](../README.md) › ["useAnchor"](_useanchor_.md)
+**[usefull-hooks](../README.md)**
 
-# External module: "useAnchor"
+> [Globals](../README.md) / "useAnchor"
+
+# Module: "useAnchor"
 
 ## Index
 
 ### Functions
 
-* [useAnchor](_useanchor_.md#const-useanchor)
+* [useAnchor](_useanchor_.md#useanchor)
 
 ## Functions
 
-### `Const` useAnchor
+### useAnchor
 
-▸ **useAnchor**(): *object*
+▸ `Const`**useAnchor**(): object
 
-*Defined in [src/useAnchor.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAnchor.ts#L7)*
+*Defined in [useAnchor.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAnchor.ts#L7)*
 
 Hook to use anchor for popover menu
 https://material-ui.com/demos/menus/#menus
 
-**Returns:** *object*
+**Returns:** object
 
-* **anchorEl**: *any*
-
-* **onClose**: *(Anonymous function)*
-
-* **onOpen**: *(Anonymous function)*
-
-* **open**: *boolean* = Boolean(anchorEl)
+Name | Type |
+------ | ------ |
+`anchorEl` | any |
+`onClose` | (Anonymous function) |
+`onOpen` | (Anonymous function) |
+`open` | boolean |

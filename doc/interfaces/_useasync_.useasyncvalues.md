@@ -1,10 +1,14 @@
-[usefull-hooks](../README.md) › ["useAsync"](../modules/_useasync_.md) › [UseAsyncValues](_useasync_.useasyncvalues.md)
+**[usefull-hooks](../README.md)**
 
-# Interface: UseAsyncValues <**T**>
+> [Globals](../README.md) / ["useAsync"](../modules/_useasync_.md) / UseAsyncValues
+
+# Interface: UseAsyncValues<T\>
 
 ## Type parameters
 
-▪ **T**
+Name |
+------ |
+`T` |
 
 ## Hierarchy
 
@@ -21,32 +25,32 @@
 
 ## Properties
 
-###  busy
+### busy
 
-• **busy**: *boolean*
+•  **busy**: boolean
 
-*Defined in [src/useAsync.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L7)*
-
-___
-
-###  error
-
-• **error**: *Error | null*
-
-*Defined in [src/useAsync.ts:9](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L9)*
+*Defined in [useAsync.ts:7](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L7)*
 
 ___
 
-###  ready
+### error
 
-• **ready**: *boolean*
+•  **error**: Error \| null
 
-*Defined in [src/useAsync.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L6)*
+*Defined in [useAsync.ts:9](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L9)*
 
 ___
 
-###  result
+### ready
 
-• **result**: *T*
+•  **ready**: boolean
 
-*Defined in [src/useAsync.ts:8](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L8)*
+*Defined in [useAsync.ts:6](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L6)*
+
+___
+
+### result
+
+•  **result**: T
+
+*Defined in [useAsync.ts:8](https://github.com/FujiHaruka/usefull-hooks/blob/master/src/useAsync.ts#L8)*
