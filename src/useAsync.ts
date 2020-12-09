@@ -42,7 +42,7 @@ export const useAsync = <Arg, Result, Empty>(
           throw e
         })
     },
-    [fn, ready, busy],
+    [set, fn, emptyResult],
   )
   const reset = useCallback(
     () =>
@@ -52,7 +52,7 @@ export const useAsync = <Arg, Result, Empty>(
         result: emptyResult,
         error: null,
       }),
-    [],
+    [set, emptyResult],
   )
   return {
     ready,
