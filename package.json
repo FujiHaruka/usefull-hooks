@@ -57,7 +57,7 @@
     "doc": "typedoc",
     "test": "jest",
     "test:watch": "jest --watch",
-    "prepare": "npm-run-all build doc"
+    "prepare": "npm-run-all build"
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts"
